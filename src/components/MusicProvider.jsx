@@ -6,8 +6,8 @@ export default function MusicProvider({ children }) {
 
   // List of songs in public/
   const songs = [
-    'public/grentperez.mp3',
-    'public/understand.mp3',
+    '/for-reika/public/grentperez.mp3',
+    '/for-reika/public/understand.mp3',
     
   ];
 
