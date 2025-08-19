@@ -5,7 +5,6 @@ import {Closing, Letter,Passcode,Question,Recap,Timer,Message,Music,Picture} fro
 import './index.css'
 function App() {
   return (
-    <Router>
       <Routes>
         <Route path="/" element={<Passcode />} />
         <Route path="/question" element={<Question />} />
@@ -16,8 +15,7 @@ function App() {
         <Route path="/recap/pictures" element={<Picture />} />
         <Route path="/letter" element={<Letter />} />
         <Route path="/closing" element={<Closing />} />
-      </Routes>
-    </Router>
+      </Routes>    
   )
 }
 
